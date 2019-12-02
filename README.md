@@ -1,6 +1,6 @@
 # distill
 
-`distill` is a small go program which takes an image and redraws a primitive version using only extremely simplified shape and colour informaion. It's designed to be run against works of art, but any input image can be used.
+`distill` is a small go program which takes an image and redraws a primitive version using only extremely simplified shape and colour information. It's designed to be run against works of art, but any input image can be used.
 
 <p align="center">
   <img width="425" src="samples/persistence-orig.jpg">
