@@ -54,7 +54,13 @@ The average colour of each block is compared to the previously extracted dominan
 </p>
 
 <p align="center">
-  <img width="425" src="samples/starry-night-dist.png">
+  <img width="425" src="samples/scream-dist.png">
   <span/>
   <img width="425" src="samples/pearl-dist.png">
+</p>
+
+<p align="center">
+  <img width="425" src="samples/starry-night-dist.png">
+  <span/>
+  <img width="425" src="samples/son-of-a-man.png">
 </p>
