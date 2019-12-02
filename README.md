@@ -1,8 +1,14 @@
 # distill
 
-`distill` is a small go program which takes an image and redraws a primitive version using only extremely simplified shape and colour informaion. It's designed to be run against artistic works (e.g. paintings) but works with any image.
+`distill` is a small go program which takes an image and redraws a primitive version using only extremely simplified shape and colour informaion. It's designed to be run against works of art, but any input image can be used.
 
-While the output is basic, `distill` tries to generate recognisable images which retain the character and substance of the original. Whether it succeeds at this or not is up to you. 
+<p align="center">
+  <img width="425" src="samples/persistence-orig.jpg">
+  <span/>
+  <img width="425" src="samples/persistence-dist.png">
+</p>
+
+While the output is basic, `distill` tries to generate recognisable images which retain the character and substance of the original. Whether it succeeds at this or not is up to you.
 
 ## Running
 Download a binary release (todo) or fetch the package
@@ -40,4 +46,15 @@ The average colour of each block is calculated. This creates an extremely low re
 The average colour of each block is compared to the previously extracted dominant colours. The block colour is set the the closest dominant colour based on its [euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) in the [Lab](https://en.wikipedia.org/wiki/CIELAB_color_space) colour space.
 
 ## Samples
-TODO
+
+<p align="center">
+  <img width="425" src="samples/nighthawks-dist.png">
+  <span/>
+  <img width="425" src="samples/wave-dist.png">
+</p>
+
+<p align="center">
+  <img width="425" src="samples/starry-night-dist.png">
+  <span/>
+  <img width="425" src="samples/pearl-dist.png">
+</p>
